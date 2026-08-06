@@ -22,4 +22,7 @@ menubar:
       url: /about/
 
 comments:
-  service:  # 第一轮暂不启用，第二轮接入 Twikoo
+  service: twikoo
+  twikoo:
+    js: https://gcore.jsdelivr.net/npm/twikoo@1.6/dist/twikoo.all.min.js
+    envId: https://twikoo-qinyuan.vercel.app
