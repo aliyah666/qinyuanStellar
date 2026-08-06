@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" width="680" height="520" role="img">
+  <title>博客部署架构（更新版）</title>
+  <desc>本地写 Markdown 经 git push 到 GitHub，Vercel 自动构建为静态站并全球分发；域名 DNS 指向 Vercel 并经优选 IP 加速，读者访问 qinyuan.me；图片走腾讯云 COS，字体走 elemecdn，评论用独立 Twikoo 函数。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <style>
+    .th{font:500 14px "PingFang SC","Microsoft YaHei",system-ui,sans-serif;fill:#1a1a1a}
+    .ts{font:400 12px "PingFang SC","Microsoft YaHei",system-ui,sans-serif;fill:#555555}
+    .cap{font:400 12px "PingFang SC","Microsoft YaHei",system-ui,sans-serif;fill:#8a8a8a}
+  </style>
+  <g class="c-blue">
+    <rect x="190" y="40" width="260" height="58" rx="10" stroke-width="0.5" fill="#E6F1FB" stroke="#185FA5"/>
+    <text class="th" x="320" y="64" text-anchor="middle" dominant-baseline="central">你写 Markdown 文章</text>
+    <text class="ts" x="320" y="84" text-anchor="middle" dominant-baseline="central">本地 Stellar Blog 目录</text>
+  </g>
+  <line x1="320" y1="98" x2="320" y2="138" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text class="cap" x="330" y="120" dominant-baseline="central">git push</text>
+  <g class="c-blue">
+    <rect x="190" y="140" width="260" height="58" rx="10" stroke-width="0.5" fill="#E6F1FB" stroke="#185FA5"/>
+    <text class="th" x="320" y="164" text-anchor="middle" dominant-baseline="central">GitHub 仓库</text>
+    <text class="ts" x="320" y="184" text-anchor="middle" dominant-baseline="central">存源码：.md + 配置 + 主题</text>
+  </g>
+  <line x1="320" y1="198" x2="320" y2="238" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text class="cap" x="330" y="220" dominant-baseline="central">push 触发</text>
+  <g class="c-blue">
+    <rect x="190" y="240" width="260" height="58" rx="10" stroke-width="0.5" fill="#E6F1FB" stroke="#185FA5"/>
+    <text class="th" x="320" y="264" text-anchor="middle" dominant-baseline="central">Vercel 构建 + 托管</text>
+    <text class="ts" x="320" y="284" text-anchor="middle" dominant-baseline="central">hexo generate → public/ → 全球 CDN</text>
+  </g>
+  <line x1="320" y1="298" x2="320" y2="338" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <g class="c-blue">
+    <rect x="190" y="340" width="260" height="58" rx="10" stroke-width="0.5" fill="#E6F1FB" stroke="#185FA5"/>
+    <text class="th" x="320" y="364" text-anchor="middle" dominant-baseline="central">读者访问 qinyuan.me</text>
+    <text class="ts" x="320" y="384" text-anchor="middle" dominant-baseline="central">域名 DNS 指向 Vercel · 优选 IP 加速</text>
+  </g>
+  <line x1="320" y1="398" x2="320" y2="438" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <g class="c-blue">
+    <rect x="190" y="440" width="260" height="58" rx="10" stroke-width="0.5" fill="#E6F1FB" stroke="#185FA5"/>
+    <text class="th" x="320" y="464" text-anchor="middle" dominant-baseline="central">浏览器渲染页面</text>
+    <text class="ts" x="320" y="484" text-anchor="middle" dominant-baseline="central">读者看到你的文章</text>
+  </g>
+  <line x1="450" y1="469" x2="500" y2="469" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <line x1="450" y1="469" x2="500" y2="369" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <line x1="450" y1="469" x2="500" y2="269" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <g class="c-amber">
+    <rect x="500" y="240" width="160" height="58" rx="10" stroke-width="0.5" fill="#FAEEDA" stroke="#854F0B"/>
+    <text class="th" x="580" y="264" text-anchor="middle" dominant-baseline="central">腾讯云 COS</text>
+    <text class="ts" x="580" y="284" text-anchor="middle" dominant-baseline="central">图片 img.qinyuan.me</text>
+  </g>
+  <g class="c-teal">
+    <rect x="500" y="340" width="160" height="58" rx="10" stroke-width="0.5" fill="#E1F5EE" stroke="#0F6E56"/>
+    <text class="th" x="580" y="364" text-anchor="middle" dominant-baseline="central">字体 CDN</text>
+    <text class="ts" x="580" y="384" text-anchor="middle" dominant-baseline="central">npm.elemecdn.com</text>
+  </g>
+  <g class="c-purple">
+    <rect x="500" y="440" width="160" height="58" rx="10" stroke-width="0.5" fill="#EEEDFE" stroke="#534AB7"/>
+    <text class="th" x="580" y="464" text-anchor="middle" dominant-baseline="central">Twikoo 评论</text>
+    <text class="ts" x="580" y="484" text-anchor="middle" dominant-baseline="central">独立 Vercel 函数</text>
+  </g>
+  <text class="cap" x="40" y="510" dominant-baseline="central">主流程：写作→GitHub→Vercel→读者；优选IP加速，图片走腾讯云COS，字体/评论为外部依赖</text>
+</svg>
