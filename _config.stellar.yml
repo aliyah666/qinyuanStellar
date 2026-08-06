@@ -1,0 +1,25 @@
+# Stellar 主题级配置（最小可用）
+# 官方文档：https://xaoxuu.com/wiki/stellar/
+# 说明：第一轮仅配置最小导航 + 关闭评论；个性化（评论 Twikoo、字体等）放第二轮。
+
+menubar:
+  columns: 4
+  items:
+    - id: post
+      title: 博客
+      url: /
+    - id: categories
+      title: 分类
+      url: /categories/
+    - id: tags
+      title: 标签
+      url: /tags/
+    - id: archives
+      title: 归档
+      url: /archives/
+    - id: about
+      title: 关于
+      url: /about/
+
+comments:
+  service:  # 第一轮暂不启用，第二轮接入 Twikoo
