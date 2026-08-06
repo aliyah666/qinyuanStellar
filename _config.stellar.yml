@@ -26,3 +26,15 @@ comments:
   twikoo:
     js: https://gcore.jsdelivr.net/npm/twikoo@1.6/dist/twikoo.all.min.js
     envId: https://twikoo-qinyuan.vercel.app
+
+# 引入霞鹜文楷 Screen Web（切片版，异步加载不阻塞渲染）
+# link 注入到 <head>；正文字体在下方 style.font-family（Stylus 读 theme.config，故写在此处）
+inject:
+  head:
+    - "<link rel=\"stylesheet\" href=\"https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css\" media=\"print\" onload=\"this.media='all'\">"
+
+style:
+  font-family:
+    body: '"LXGW WenKai Screen", system-ui, "Microsoft YaHei", "PingFang SC", sans-serif'
+    code: 'Menlo, Monaco, Consolas, system-ui, monospace, sans-serif'
+    codeblock: 'Menlo, Monaco, Consolas, system-ui, monospace, sans-serif'
