@@ -24,8 +24,8 @@ menubar:
 comments:
   service: twikoo
   twikoo:
-    js: https://gcore.jsdelivr.net/npm/twikoo@1.6/dist/twikoo.all.min.js
-    envId: https://twikoo-qinyuan.vercel.app
+    js: https://npm.elemecdn.com/twikoo@1.6/dist/twikoo.all.min.js
+    envId: https://comment.qinyuan.me
 
 # 引入霞鹜文楷 Screen Web（切片版，异步加载不阻塞渲染）
 # link 注入到 <head>；正文字体在下方 style.font-family（Stylus 读 theme.config，故写在此处）
