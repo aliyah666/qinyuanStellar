@@ -3,7 +3,7 @@
 # 说明：第一轮仅配置最小导航 + 关闭评论；个性化（评论 Twikoo、字体等）放第二轮。
 
 menubar:
-  columns: 4
+  columns: 5
   items:
     - id: post
       title: 博客

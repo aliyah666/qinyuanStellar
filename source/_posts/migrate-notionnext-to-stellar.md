@@ -41,6 +41,6 @@ Stellar 是一个内置文档系统的简约商务风 Hexo 主题，支持丰富
 
 因为 Vercel 优选 IP 加速国内访问、评论系统这两项在 NotionNext 时期就已经部署过，换成 Stellar 后只需新加几行代码。前后三个多小时，一个焕然一新的 Stellar 博客就立起来了，连写内容的动力都跟着涨了不少。
 
-{% image /images/博客主页.png "焕然一新的 Stellar 主题博客首页" %}
+{% image /images/stellar-homepage.png "焕然一新的 Stellar 主题博客首页" %}
 
 {% quot 无论用什么方案、什么主题，最重要的还是内容，以及持续的输出。希望自己能一直做到。 %}
