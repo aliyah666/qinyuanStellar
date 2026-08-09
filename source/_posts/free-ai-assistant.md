@@ -24,7 +24,7 @@ slug: free-ai-assistant
 
 简单理解：前三款都是"什么都能干"的全能选手，区别只是背后的生态不同；WPS 灵犀在文档场景下体验最顺。
 
-![腾讯 WorkBuddy 界面](https://img.qinyuan.me/images/20260710113930045.png?imageMogr2/format/webp/quality/85)
+{% image https://img.qinyuan.me/images/20260710113930045.png?imageMogr2/format/webp/quality/85 "腾讯 WorkBuddy 界面" ratio:1176/1009 %}
 
 ## 两个真实使用场景
 
@@ -58,9 +58,9 @@ AI 大多数情况下是对的，但也别过度迷信。它们偶尔会抽风�
 
 上面提到的只是最基础的功能，生成图片、处理文档、跑代码，这些也都不在话下。写这篇文章的时候，我直接上传一份 Word 文档，用大白话告诉 WorkBuddy 生成一份 PPT，这效果我自己都做不出来，效果图如下：
 
-![](https://img.qinyuan.me/images/20260710114353173.png?imageMogr2/format/webp/quality/85)
-![](https://img.qinyuan.me/images/20260710114318517.png?imageMogr2/format/webp/quality/85)
-![](https://img.qinyuan.me/images/20260710114239359.png?imageMogr2/format/webp/quality/85)
+{% image https://img.qinyuan.me/images/20260710114353173.png?imageMogr2/format/webp/quality/85 ratio:1788/1003 %}
+{% image https://img.qinyuan.me/images/20260710114318517.png?imageMogr2/format/webp/quality/85 ratio:1780/1005 %}
+{% image https://img.qinyuan.me/images/20260710114239359.png?imageMogr2/format/webp/quality/85 ratio:1776/997 %}
 
 ## 用着用着，发现的几个惊喜
 

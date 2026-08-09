@@ -17,7 +17,7 @@ slug: notionnext-vercel-blog
 
 这里面 Vercel 替代了服务器，Notion 充当数据库，NotionNext 则是核心代码。下图就是我部署好的博客，目前正在持续优化中。
 
-![](https://img.qinyuan.me/images/20260711210553187.png?imageMogr2/format/webp/quality/85)
+{% image https://img.qinyuan.me/images/20260711210553187.png?imageMogr2/format/webp/quality/85 ratio:1712/1246 %}
 
 ## 开始之前，先看效果
 
@@ -38,7 +38,7 @@ slug: notionnext-vercel-blog
 3. 登录顺序：先注册好 GitHub，接着注册 Vercel 时选「用 GitHub 登录」，两个网站先别关，都保持登录状态，待会会用到。
 4. 页面 ID：浏览器地址栏里 `/` 和 `?` 之间的那串字符，就是你的 32 位页面 ID。复制下来顺手发给 AI 帮确认下是不是 32 位——主要是太长了，我懒得数。
 
-![](https://img.qinyuan.me/images/20260712000332179.png?imageMogr2/format/webp/quality/85)
+{% image https://img.qinyuan.me/images/20260712000332179.png?imageMogr2/format/webp/quality/85 ratio:2410/651 %}
 
 后面照着作者的教程去操作即可。部署好确认能正常访问之后，接下来就是买域名。
 

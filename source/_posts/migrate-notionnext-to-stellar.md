@@ -11,7 +11,7 @@ type: story
 
 晚上躺床上想了想，干脆换个博客方案吧。反正原博客也就两篇文章，加上我对原本那套主题的颜值一直觉得差点意思，自己又不敢乱动代码。
 
-{% image /images/image.jpg "原来的博客长这样" %}
+{% image /images/image.jpg "原来的博客长这样" ratio:1712/1246 %}
 
 经过一番搜索，看到一位博主推荐 Stellar。点进去的瞬间，我直接被它的主题颜值圈粉了：整体是简约的白色，左侧边栏是浅色的渐变，整个博客简约又优雅。就是它了！
 
@@ -41,6 +41,6 @@ Stellar 是一个内置文档系统的简约商务风 Hexo 主题，支持丰富
 
 因为 Vercel 优选 IP 加速国内访问、评论系统这两项在 NotionNext 时期就已经部署过，换成 Stellar 后只需新加几行代码。前后三个多小时，一个焕然一新的 Stellar 博客就立起来了，连写内容的动力都跟着涨了不少。
 
-{% image /images/stellar-homepage.png "焕然一新的 Stellar 主题博客首页" %}
+{% image /images/stellar-homepage.png "焕然一新的 Stellar 主题博客首页" ratio:1498/1073 %}
 
 {% quot 无论用什么方案、什么主题，最重要的还是内容，以及持续的输出。希望自己能一直做到。 %}

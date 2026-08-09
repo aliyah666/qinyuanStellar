@@ -30,7 +30,7 @@ description: '花30元获得了一本电子书资源，发现找书难是真实�
 
 事实证明，这个需求是确实存在的。在这个过程中，也有买家让我找书，但是由于比较冷门或者网络上没有这个资源，以及个人技术水平有限，最后没有找到。
 
-{% image /images/xianyu-deal-records.jpg "闲鱼成交记录" %}
+{% image /images/xianyu-deal-records.jpg "闲鱼成交记录" ratio:8192/7242 %}
 
 成交量不大的原因，我也复盘了一下，主要有 3 点：
 
