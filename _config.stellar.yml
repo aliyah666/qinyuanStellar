@@ -48,3 +48,7 @@ style:
     body: '"LXGW WenKai Screen", system-ui, "Microsoft YaHei", "PingFang SC", sans-serif'
     code: 'Menlo, Monaco, Consolas, system-ui, monospace, sans-serif'
     codeblock: 'Menlo, Monaco, Consolas, system-ui, monospace, sans-serif'
+
+tag_plugins:
+  image:
+    fancybox: true
