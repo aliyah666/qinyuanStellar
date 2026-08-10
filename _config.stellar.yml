@@ -60,6 +60,68 @@ plugins:
   # 页面元素滑入动画；配合 inject.head 中的 .slide-up 覆盖样式（visibility:hidden 会导致懒加载图片无法显示，故改用 opacity）
   scrollreveal:
     enable: true
+    # 自包含的 ScrollReveal 初始化（复刻官方 1.36+ 修复，不依赖 1.33.1 缺失的 utils.initPlugin/utils.js）
+    # 1) 不硬编码 .widgets/.l_main/.l_right 容器，常规元素用 window 滚动监听（PC/移动端均有效）
+    # 2) sticky/fixed 吸顶容器内的元素按容器分组，避免被误判为不可见
+    # 3) 3 秒 watchdog + sr-fallback 兜底，防止动画失败导致元素不可见
+    inject: |
+      <script defer src="https://gcore.jsdelivr.net/npm/scrollreveal@4.0/dist/scrollreveal.min.js"></script>
+      <style>html.sr-fallback .slide-up { visibility: visible !important; }</style>
+      <script>
+      (function(){
+        var run = function(){
+          var els = Array.prototype.slice.call(document.querySelectorAll('.slide-up'));
+          if (els.length === 0) return;
+          function findPinnedContainer(el){
+            var node = el;
+            while (node && node.nodeType === 1){
+              var pos = window.getComputedStyle(node).position;
+              if (pos === 'sticky' || pos === 'fixed') return node;
+              node = node.parentElement;
+            }
+            return null;
+          }
+          var pinnedGroups = new Map();
+          var targets = [];
+          els.forEach(function(el){
+            var container = findPinnedContainer(el);
+            if (container){
+              var group = pinnedGroups.get(container) || [];
+              group.push(el);
+              pinnedGroups.set(container, group);
+            } else {
+              targets.push(el);
+            }
+          });
+          if (pinnedGroups.size === 0 && targets.length === 0) return;
+          var fallbackApplied = false;
+          function revealFallback(){
+            if (fallbackApplied) return;
+            fallbackApplied = true;
+            document.documentElement.classList.add('sr-fallback');
+          }
+          var slideUp = { distance:'8px', duration:'500', interval:'50', scale:'1', opacity:0, easing:'ease-out' };
+          var watchdog = setTimeout(function(){ revealFallback(); }, 3000);
+          if (typeof ScrollReveal !== 'function'){ revealFallback(); return; }
+          try {
+            var sr = ScrollReveal();
+            if (targets.length > 0) sr.reveal(targets, slideUp);
+            pinnedGroups.forEach(function(group, container){
+              sr.reveal(group, Object.assign({}, slideUp, { container: container }));
+            });
+            clearTimeout(watchdog);
+          } catch(e){
+            console.error('[scrollreveal] init failed', e);
+            revealFallback();
+          }
+        };
+        if (document.readyState === 'loading'){
+          document.addEventListener('DOMContentLoaded', run);
+        } else {
+          run();
+        }
+      })();
+      </script>
   fancybox:
     js: https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.umd.js
     css: https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.css
