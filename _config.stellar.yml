@@ -52,3 +52,9 @@ style:
 tag_plugins:
   image:
     fancybox: true
+
+# Fancybox 升级至 5.0.36（修复 5.0 与外部图片URL参数冲突导致图片不显示）
+plugins:
+  fancybox:
+    js: https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.umd.js
+    css: https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.css

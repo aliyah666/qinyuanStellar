@@ -1,9 +1,0 @@
-# 让 gemini-cli 审查聚焦于源码与文章，跳过依赖与构建产物
-node_modules/
-public/
-.deploy_git/
-.git/
-db.json
-*.log
-package-lock.json
-.DS_Store
