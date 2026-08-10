@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 660" width="100%" role="img">
+  <title>广西酒店活动日历样图</title>
+  <desc>展示展会、演唱会、会议、考试、重大活动五类资讯在月历视图上的呈现效果，以2026年8月为例，含省份城市筛选与多活动单元格。</desc>
+
+  <defs>
+    <style>
+      .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif; font-size: 18px; font-weight: 500; fill: #1a1a1a; }
+      .sub-text { font-family: -apple-system, sans-serif; font-size: 12px; font-weight: 400; fill: #666; }
+      .weekday { font-family: -apple-system, sans-serif; font-size: 11px; font-weight: 500; fill: #888; letter-spacing: 0.5px; }
+      .day-num { font-family: -apple-system, sans-serif; font-size: 11px; font-weight: 400; fill: #333; }
+      .day-num-muted { fill: #c0c0c0; }
+      .day-num-active { font-weight: 500; fill: #1a1a1a; }
+      .event-text { font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', 'SimSun', '宋体', serif; font-size: 9.5px; font-weight: 400; fill: #ffffff; letter-spacing: 0.3px; }
+      .legend-text { font-family: -apple-system, sans-serif; font-size: 11px; font-weight: 400; fill: #555; }
+      .small-text { font-family: -apple-system, sans-serif; font-size: 10px; font-weight: 400; fill: #888; }
+      .nav-text { font-family: -apple-system, sans-serif; font-size: 12px; font-weight: 400; fill: #333; }
+      .tab-text { font-family: -apple-system, sans-serif; font-size: 11px; font-weight: 500; fill: #fff; }
+      .tab-text-inactive { font-weight: 400; fill: #888; }
+      .select-label { font-family: -apple-system, sans-serif; font-size: 11px; font-weight: 400; fill: #888; }
+      .select-value { font-family: -apple-system, sans-serif; font-size: 12px; font-weight: 500; fill: #1a1a1a; }
+    </style>
+  </defs>
+
+  <rect x="20" y="20" width="640" height="620" rx="12" fill="#ffffff" stroke="#e8e8e8" stroke-width="0.5"/>
+
+  <text class="title-text" x="40" y="52">广西·酒店活动日历</text>
+  <text class="sub-text" x="40" y="72">为酒店运营捕捉本地展会·演唱会·会议·考试·重大活动</text>
+
+  <g transform="translate(40, 96)">
+    <rect x="0" y="0" width="120" height="28" rx="6" fill="#fafafa" stroke="#e8e8e8" stroke-width="0.5"/>
+    <text class="select-label" x="12" y="11">省份</text>
+    <text class="select-value" x="12" y="24">广西</text>
+    <path d="M100 14 L106 20 L94 20 Z" fill="#666"/>
+  </g>
+
+  <g transform="translate(170, 96)">
+    <rect x="0" y="0" width="120" height="28" rx="6" fill="#fafafa" stroke="#e8e8e8" stroke-width="0.5"/>
+    <text class="select-label" x="12" y="11">城市</text>
+    <text class="select-value" x="12" y="24">南宁</text>
+    <path d="M100 14 L106 20 L94 20 Z" fill="#666"/>
+  </g>
+
+  <g transform="translate(320, 100)">
+    <rect x="0" y="0" width="52" height="24" rx="6" fill="#1a1a1a"/>
+    <text class="tab-text" x="26" y="15" text-anchor="middle">月历</text>
+    <text class="tab-text tab-text-inactive" x="72" y="15">列表</text>
+    <text class="tab-text tab-text-inactive" x="106" y="15">订阅</text>
+  </g>
+
+  <g transform="translate(520, 96)">
+    <rect x="0" y="0" width="120" height="28" rx="6" fill="#f7f7f5" stroke="#e8e8e8" stroke-width="0.5"/>
+    <text class="nav-text" x="12" y="18" fill="#999">‹</text>
+    <text class="nav-text" x="60" y="18" text-anchor="middle">2026 年 8 月</text>
+    <text class="nav-text" x="108" y="18" fill="#999">›</text>
+  </g>
+
+  <g transform="translate(40, 158)">
+    <text class="weekday" x="42" text-anchor="middle">周一</text>
+    <text class="weekday" x="130" text-anchor="middle">周二</text>
+    <text class="weekday" x="218" text-anchor="middle">周三</text>
+    <text class="weekday" x="306" text-anchor="middle">周四</text>
+    <text class="weekday" x="394" text-anchor="middle">周五</text>
+    <text class="weekday" x="482" text-anchor="middle">周六</text>
+    <text class="weekday" x="570" text-anchor="middle">周日</text>
+    <line x1="0" y1="14" x2="612" y2="14" stroke="#eeeeee" stroke-width="0.5"/>
+  </g>
+
+  <g transform="translate(40, 180)">
+
+    <g transform="translate(0,0)">
+      <rect x="0" y="0" width="84" height="70" fill="#fafafa" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-muted" x="6" y="14">27</text>
+    </g>
+    <g transform="translate(88,0)">
+      <rect x="0" y="0" width="84" height="70" fill="#fafafa" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-muted" x="6" y="14">28</text>
+    </g>
+    <g transform="translate(176,0)">
+      <rect x="0" y="0" width="84" height="70" fill="#fafafa" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-muted" x="6" y="14">29</text>
+    </g>
+    <g transform="translate(264,0)">
+      <rect x="0" y="0" width="84" height="70" fill="#fafafa" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-muted" x="6" y="14">30</text>
+    </g>
+    <g transform="translate(352,0)">
+      <rect x="0" y="0" width="84" height="70" fill="#fafafa" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-muted" x="6" y="14">31</text>
+    </g>
+    <g transform="translate(440,0)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-active" x="6" y="14">1</text>
+    </g>
+    <g transform="translate(528,0)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">2</text>
+    </g>
+
+    <g transform="translate(0,70)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">3</text>
+    </g>
+    <g transform="translate(88,70)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-active" x="6" y="14">4</text>
+      <rect x="6" y="22" width="72" height="14" rx="3" fill="#BA7517"/>
+      <text class="event-text" x="42" y="32" text-anchor="middle">东盟博览会筹备</text>
+    </g>
+    <g transform="translate(176,70)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">5</text>
+    </g>
+    <g transform="translate(264,70)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">6</text>
+    </g>
+    <g transform="translate(352,70)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-active" x="6" y="14">7</text>
+      <rect x="6" y="22" width="72" height="14" rx="3" fill="#BA7517"/>
+      <text class="event-text" x="42" y="32" text-anchor="middle">高考志愿咨询</text>
+    </g>
+    <g transform="translate(440,70)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">8</text>
+    </g>
+    <g transform="translate(528,70)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">9</text>
+      <rect x="6" y="22" width="72" height="13" rx="3" fill="#7F77DD"/>
+      <text class="event-text" x="42" y="31" text-anchor="middle">周杰伦南宁站</text>
+      <rect x="6" y="38" width="72" height="13" rx="3" fill="#639922"/>
+      <text class="event-text" x="42" y="47" text-anchor="middle">教资面试</text>
+      <rect x="6" y="54" width="72" height="13" rx="3" fill="#BA7517"/>
+      <text class="event-text" x="42" y="63" text-anchor="middle">博览会招商</text>
+    </g>
+
+    <g transform="translate(0,140)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">10</text>
+    </g>
+    <g transform="translate(88,140)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">11</text>
+    </g>
+    <g transform="translate(176,140)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-active" x="6" y="14">12</text>
+      <rect x="6" y="22" width="72" height="14" rx="3" fill="#639922"/>
+      <text class="event-text" x="42" y="32" text-anchor="middle">公务员笔试</text>
+    </g>
+    <g transform="translate(264,140)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">13</text>
+      <rect x="6" y="22" width="72" height="14" rx="3" fill="#639922" opacity="0.7"/>
+      <text class="event-text" x="42" y="32" text-anchor="middle">公务员笔试</text>
+    </g>
+    <g transform="translate(352,140)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">14</text>
+    </g>
+    <g transform="translate(440,140)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-active" x="6" y="14">15</text>
+      <rect x="6" y="22" width="72" height="14" rx="3" fill="#639922"/>
+      <text class="event-text" x="42" y="32" text-anchor="middle">教资面试</text>
+    </g>
+    <g transform="translate(528,140)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">16</text>
+    </g>
+
+    <g transform="translate(0,210)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">17</text>
+    </g>
+    <g transform="translate(88,210)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-active" x="6" y="14">18</text>
+      <rect x="6" y="22" width="72" height="14" rx="3" fill="#E24B4A"/>
+      <text class="event-text" x="42" y="32" text-anchor="middle">文旅厅发布</text>
+    </g>
+    <g transform="translate(176,210)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">19</text>
+    </g>
+    <g transform="translate(264,210)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">20</text>
+    </g>
+    <g transform="translate(352,210)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">21</text>
+    </g>
+    <g transform="translate(440,210)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">22</text>
+      <rect x="6" y="22" width="72" height="13" rx="3" fill="#378ADD"/>
+      <text class="event-text" x="42" y="31" text-anchor="middle">东盟汽摩配</text>
+      <rect x="6" y="38" width="72" height="13" rx="3" fill="#7F77DD"/>
+      <text class="event-text" x="42" y="47" text-anchor="middle">薛之谦南宁站</text>
+      <rect x="6" y="54" width="72" height="13" rx="3" fill="#BA7517"/>
+      <text class="event-text" x="42" y="63" text-anchor="middle">商务招商会</text>
+    </g>
+    <g transform="translate(528,210)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">23</text>
+    </g>
+
+    <g transform="translate(0,280)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">24</text>
+    </g>
+    <g transform="translate(88,280)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">25</text>
+    </g>
+    <g transform="translate(176,280)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">26</text>
+    </g>
+    <g transform="translate(264,280)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">27</text>
+    </g>
+    <g transform="translate(352,280)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-active" x="6" y="14">28</text>
+      <rect x="6" y="22" width="72" height="14" rx="3" fill="#7F77DD"/>
+      <text class="event-text" x="42" y="32" text-anchor="middle">桂林草莓音乐节</text>
+    </g>
+    <g transform="translate(440,280)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">29</text>
+    </g>
+    <g transform="translate(528,280)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num" x="6" y="14">30</text>
+    </g>
+
+    <g transform="translate(0,350)">
+      <rect x="0" y="0" width="84" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="0.5"/>
+      <text class="day-num day-num-active" x="6" y="14">31</text>
+    </g>
+
+  </g>
+
+  <line x1="40" y1="616" x2="640" y2="616" stroke="#eeeeee" stroke-width="0.5"/>
+
+  <g transform="translate(40, 628)">
+    <rect x="0" y="-7" width="10" height="10" rx="2" fill="#378ADD"/>
+    <text class="legend-text" x="14" y="1">展会</text>
+    <rect x="56" y="-7" width="10" height="10" rx="2" fill="#7F77DD"/>
+    <text class="legend-text" x="70" y="1">演唱会</text>
+    <rect x="124" y="-7" width="10" height="10" rx="2" fill="#BA7517"/>
+    <text class="legend-text" x="138" y="1">会议</text>
+    <rect x="184" y="-7" width="10" height="10" rx="2" fill="#639922"/>
+    <text class="legend-text" x="198" y="1">考试</text>
+    <rect x="244" y="-7" width="10" height="10" rx="2" fill="#E24B4A"/>
+    <text class="legend-text" x="258" y="1">重大活动</text>
+    <text class="small-text" x="600" y="1" text-anchor="end" fill="#aaaaaa">数据来源：广西政务公告 · 官方公众号</text>
+  </g>
+
+</svg>
