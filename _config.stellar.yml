@@ -32,8 +32,8 @@ comments:
 inject:
   head:
     - "<link rel=\"stylesheet\" href=\"https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css\" media=\"print\" onload=\"this.media='all'\">"
-    # 覆盖主题 scrollreveal 的 visibility:hidden（会阻断 vanilla-lazyload 的视口检测导致图片空白），改用 opacity 实现同样的防闪烁效果
-    - "<style>.slide-up{visibility:visible;opacity:0;}</style>"
+    # 覆盖主题 scrollreveal 的 visibility:hidden（会阻断 vanilla-lazyload 视口检测导致图片空白）；隐藏交给 ScrollReveal 内联 opacity 负责，样式表不得设 opacity:0（否则 SR4 不生成动画终点）
+    - "<style>.slide-up{visibility:visible;}</style>"
   # Microsoft Clarity 访问统计（热力图/会话录屏/行为看板），Project ID: xmcrfwf5rh
   script:
     - >-
