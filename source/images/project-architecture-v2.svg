@@ -1,0 +1,70 @@
+<svg viewBox="0 0 680 650" width="680" height="650" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>酒店活动资讯监测系统架构图</title>
+  <desc>广西区域酒店资讯日历项目的系统架构：政府网站与微信公众号作为信息源，经采集层、AI 处理层、飞书复核层，最终在博客日历页展示，全程采用 URL 比对增量机制。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <style>
+    text{font-family:'Microsoft YaHei','PingFang SC','Hiragino Sans GB',sans-serif;}
+  </style>
+
+  <text x="340" y="50" text-anchor="middle" font-size="15" font-weight="500" fill="#26215C">酒店活动资讯监测系统 · 架构图</text>
+  <text x="340" y="74" text-anchor="middle" font-size="12" fill="#5F5E5A">广西区域 · 政府公告 + 微信公众号 → 日历页展示</text>
+
+  <text x="40" y="104" font-size="13" font-weight="500" fill="#444441">① 信息源</text>
+  <rect x="40" y="116" width="290" height="56" rx="10" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+  <text x="185" y="138" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#27500A">政府网站公告（5 个源）</text>
+  <text x="185" y="158" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">文旅厅·商务厅·考试网·体育局·南宁政府网</text>
+  <rect x="350" y="116" width="290" height="56" rx="10" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="495" y="138" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#0C447C">微信公众号（70 个账号）</text>
+  <text x="495" y="158" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">官方文旅 / 会展 / 考试类账号</text>
+
+  <line x1="185" y1="172" x2="135" y2="216" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="495" y1="172" x2="340" y2="216" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="40" y="214" font-size="13" font-weight="500" fill="#444441">② 采集层</text>
+  <rect x="40" y="222" width="190" height="70" rx="10" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+  <text x="135" y="242" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#27500A">政府公告采集</text>
+  <text x="135" y="262" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">腾讯云函数 SCF / HiFlow</text>
+  <text x="135" y="280" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">定时HTTP 列表→详情→正文</text>
+  <rect x="245" y="222" width="190" height="70" rx="10" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="340" y="242" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#0C447C">公众号列表获取</text>
+  <text x="340" y="262" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">TikHub / 公众平台借道</text>
+  <text x="340" y="280" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">每日1次 · 返回文章URL</text>
+  <rect x="450" y="222" width="190" height="70" rx="10" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="545" y="242" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#0C447C">公众号正文抓取</text>
+  <text x="545" y="262" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">NewsCrawler</text>
+  <text x="545" y="280" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">直链 → JSON 正文</text>
+
+  <line x1="435" y1="257" x2="448" y2="257" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="135" y1="292" x2="320" y2="336" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="340" y1="292" x2="340" y2="336" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="545" y1="292" x2="360" y2="336" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="40" y="330" font-size="13" font-weight="500" fill="#444441">③ AI 处理</text>
+  <rect x="40" y="340" width="600" height="50" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="340" y="360" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#3C3489">AI 抽取引擎（腾讯混元 / WorkBuddy）</text>
+  <text x="340" y="378" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">初筛活动资讯 → 结构化字段（活动名/日期/城市/类型/场馆）→ 跨源去重</text>
+
+  <line x1="340" y1="390" x2="340" y2="420" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="40" y="412" font-size="13" font-weight="500" fill="#444441">④ 复核存储</text>
+  <rect x="40" y="422" width="600" height="48" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text x="340" y="440" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#633806">飞书多维表格</text>
+  <text x="340" y="458" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">草稿池 → 人工确认（待确认 / 已确认 / 忽略）</text>
+
+  <line x1="340" y1="470" x2="340" y2="498" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="40" y="492" font-size="13" font-weight="500" fill="#444441">⑤ 展示与推送</text>
+  <rect x="40" y="500" width="600" height="56" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text x="340" y="522" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#085041">博客日历页</text>
+  <text x="340" y="542" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">Hexo + Stellar + FullCalendar（Vercel）</text>
+
+  <line x1="340" y1="556" x2="340" y2="584" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="40" y="586" width="600" height="44" rx="10" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+  <text x="340" y="604" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#444441">增量机制：以文章 URL 为唯一 ID 比对</text>
+  <text x="340" y="622" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#555">每日仅抓取新增文章（正文抓取量 = 当日新文章量）</text>
+</svg>

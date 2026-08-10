@@ -37,7 +37,7 @@ MVP（Minimum Viable Product）即"最小可行产品"，指用最少的功能�
 {% quot 一个页面，掌控全区域的活动动态 %}
 不用再人工一个个公众号、一个个官网去翻，下面是页面截图：
 
-{% image /images/hotel-calendar-mockup.svg "酒店营销日历页面效果图" fancybox:true %}
+{% image /images/hotel-calendar-mockup-v2.svg "酒店营销日历页面效果图" fancybox:true %}
 
 ## 二、说干就干，先跑通 MVP
 
@@ -48,7 +48,7 @@ MVP（Minimum Viable Product）即"最小可行产品"，指用最少的功能�
 
 政府类网站这条链路已经跑通了，但公众号这边一直没有稳妥的方案。项目到这里，暂时停了两天。
 
-{% image /images/project-architecture.svg "酒店营销日历项目架构图" fancybox:true %}
+{% image /images/project-architecture-v2.svg "酒店营销日历项目架构图" fancybox:true %}
 
 ## 三、停下来的这两天，我做了什么
 
