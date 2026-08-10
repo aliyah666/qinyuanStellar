@@ -100,7 +100,7 @@ plugins:
             fallbackApplied = true;
             document.documentElement.classList.add('sr-fallback');
           }
-          var slideUp = { distance:'8px', duration:'500', interval:'50', scale:'1', opacity:0, easing:'ease-out' };
+          var slideUp = { distance:'8px', duration:'1000', interval:'100', scale:'1', opacity:0, easing:'ease-out' };
           var watchdog = setTimeout(function(){ revealFallback(); }, 3000);
           if (typeof ScrollReveal !== 'function'){ revealFallback(); return; }
           try {
