@@ -32,6 +32,8 @@ comments:
 inject:
   head:
     - "<link rel=\"stylesheet\" href=\"https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css\" media=\"print\" onload=\"this.media='all'\">"
+    # 覆盖主题 scrollreveal 的 visibility:hidden（会阻断 vanilla-lazyload 的视口检测导致图片空白），改用 opacity 实现同样的防闪烁效果
+    - "<style>.slide-up{visibility:visible;opacity:0;}</style>"
   # Microsoft Clarity 访问统计（热力图/会话录屏/行为看板），Project ID: xmcrfwf5rh
   script:
     - >-
@@ -55,6 +57,9 @@ tag_plugins:
 
 # Fancybox 升级至 5.0.36（修复 5.0 与外部图片URL参数冲突导致图片不显示）
 plugins:
+  # 页面元素滑入动画；配合 inject.head 中的 .slide-up 覆盖样式（visibility:hidden 会导致懒加载图片无法显示，故改用 opacity）
+  scrollreveal:
+    enable: true
   fancybox:
     js: https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.umd.js
     css: https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.css
