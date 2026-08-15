@@ -24,6 +24,6 @@
     "hexo-theme-stellar": "^1.33.1"
   },
   "engines": {
-    "node": ">=18 <=20"
+    "node": ">=24"
   }
 }
