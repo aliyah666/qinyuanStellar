@@ -5,3 +5,6 @@ public/
 .DS_Store
 db.json
 .workbuddy/
+
+# 配置文件备份
+*.bak

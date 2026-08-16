@@ -1,0 +1,5 @@
+qexo_talks:
+  layout: markdown
+  title: 最近说说
+  content: |
+    <div id="qexot-sidebar"></div>

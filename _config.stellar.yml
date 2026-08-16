@@ -3,20 +3,14 @@
 # 说明：第一轮仅配置最小导航 + 关闭评论；个性化（评论 Twikoo、字体等）放第二轮。
 
 menubar:
-  columns: 5
+  columns: 3
   items:
     - id: post
       title: 博客
       url: /
-    - id: categories
-      title: 分类
-      url: /categories/
-    - id: tags
-      title: 标签
-      url: /tags/
-    - id: archives
-      title: 归档
-      url: /archives/
+    - id: talks
+      title: 说说
+      url: /talks/
     - id: about
       title: 关于
       url: /about/
@@ -34,6 +28,16 @@ inject:
     - "<link rel=\"stylesheet\" href=\"https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css\" media=\"print\" onload=\"this.media='all'\">"
     # 覆盖主题 scrollreveal 的 visibility:hidden（会阻断 vanilla-lazyload 视口检测导致图片空白）；隐藏交给 ScrollReveal 内联 opacity 负责，样式表不得设 opacity:0（否则 SR4 不生成动画终点）
     - "<style>.slide-up{visibility:visible;}</style>"
+    - '<link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/MSCMDD/Qexo-Talks@main/Stellar/qexo_talk.css">'
+    - |
+      <style>
+      #qexot-sidebar .tag-plugin.timeline { padding-left: 0; }
+      #qexot-sidebar .tag-plugin.timeline:before { display: none; }
+      #qexot-sidebar .timenode + .timenode { margin-top: 0.5rem; }
+      #qexot-sidebar .timenode .header { display: none; }
+      #qexot-sidebar .timenode .body { background: transparent; border-radius: 0; box-shadow: none; padding: 0; font-size: 13px; line-height: 1.6; }
+      #qexot-sidebar .timenode .body .footer { padding: 0.2rem 0 0; }
+      </style>
   # Microsoft Clarity 访问统计（热力图/会话录屏/行为看板），Project ID: xmcrfwf5rh
   script:
     - >-
@@ -44,6 +48,8 @@ inject:
       y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
       })(window, document, "clarity", "script", "xmcrfwf5rh");
       </script>
+    - '<script src="https://gcore.jsdelivr.net/gh/MSCMDD/Qexo-Talks@main/Stellar/qexo_talk.js"></script>'
+    - '<script>document.addEventListener("DOMContentLoaded",function(){var el=document.getElementById("qexot-sidebar");if(el&&typeof showQexoTalks==="function"){showQexoTalks("qexot-sidebar","https://admin.qinyuan.me",5);}});</script>'
 
 style:
   font-family:
@@ -125,3 +131,8 @@ plugins:
   fancybox:
     js: https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.umd.js
     css: https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.css
+
+site_tree:
+  home:
+    leftbar: recent, qexo_talks
+    rightbar:
