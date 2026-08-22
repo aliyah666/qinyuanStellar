@@ -23,5 +23,5 @@ layout: page
 
 ## 找到我
 
-- 邮箱：{% button me@qinyuan.me javascript:void(0) icon:✉ color:blue %}
-- 个人博客：{% button qinyuan.me javascript:void(0) icon:solar:planet-bold-duotone color:green %}
+- 邮箱：{% copy me@qinyuan.me %}
+- 个人博客：{% copy qinyuan.me %}
