@@ -1,6 +1,13 @@
 ---
 title: 关于我
 layout: page
+inject:
+  head:
+    # 仅本页生效：解除 button 标签插件的文字选中限制（主题 a.button 设了 user-select:none），样式不变，仅允许选中文字以便复制，不引入 copy 组件
+    - |
+      <style>
+      a.button { user-select: text; -webkit-user-select: text; }
+      </style>
 ---
 
 你好，我是 Hardy，坐标广西梧州。
@@ -23,5 +30,5 @@ layout: page
 
 ## 找到我
 
-- 邮箱：{% copy me@qinyuan.me %}
-- 个人博客：{% copy qinyuan.me %}
+- 邮箱：{% button me@qinyuan.me javascript:void(0) icon:✉ color:blue %}
+- 个人博客：{% button qinyuan.me javascript:void(0) icon:solar:planet-bold-duotone color:green %}
