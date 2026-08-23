@@ -1,6 +1,7 @@
 ---
 title: 关于我
 layout: page
+banner: 'https://img.qinyuan.me/images/20260823140050351.jpg?imageMogr2/format/webp/quality/85'
 inject:
   head:
     # 仅本页生效：解除 button 标签插件的文字选中限制（主题 a.button 设了 user-select:none），样式不变，仅允许选中文字以便复制，不引入 copy 组件
