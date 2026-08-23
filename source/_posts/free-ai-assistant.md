@@ -4,6 +4,7 @@ date: 2026-07-10 00:00:00
 tags: [工具]
 categories: [随笔]
 description: AI 未必永远正确，但它能大幅降低普通人的学习门槛。今年我最大的生产力升级，是开始认真使用免费的国产 AI 助手。本文分享我常用的几款产品，以及两个真实使用场景。
+banner: 'https://img.qinyuan.me/images/20260823152731044.jpg?imageMogr2/format/webp/quality/85'
 slug: free-ai-assistant
 ---
 
