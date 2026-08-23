@@ -38,6 +38,13 @@ inject:
       #qexot-sidebar .timenode .body { background: transparent; border-radius: 0; box-shadow: none; padding: 0; font-size: 13px; line-height: 1.6; }
       #qexot-sidebar .timenode .body .footer { padding: 0.2rem 0 0; }
       </style>
+    # 左侧栏浅色模式白色遮罩：50% → 5%（对齐 Stellar 1.44 新版默认值，使侧栏透出背景图色调）
+    - |
+      <style>
+      @media screen and (min-width: 667px) {
+        .l_left .leftbar-container:before { background: rgba(255,255,255,0.05); }
+      }
+      </style>
   # Microsoft Clarity 访问统计（热力图/会话录屏/行为看板），Project ID: xmcrfwf5rh
   script:
     - >-
