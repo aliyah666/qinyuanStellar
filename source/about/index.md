@@ -24,7 +24,7 @@ inject:
 - 代码托管在 {% hashtag GitHub https://github.com/ color:cyan %}，使用 {% hashtag Vercel https://vercel.com/ color:cyan %} 部署
 - 用优选 IP 加速，保证国内访问速度
 - 评论系统：{% hashtag Twikoo https://twikoo.js.org/ color:blue %}
-- 说说功能：{% hashtag Qexo javascript:void(0) color:cyan %} 插件
+- 说说功能：{% hashtag Qexo https://oplog.cn/qexo/ color:cyan %} 插件
 
 {% note color:green 感谢以上所有工具的开源作者，让我得以免费使用。 %}
 
