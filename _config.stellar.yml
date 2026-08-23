@@ -139,6 +139,13 @@ plugins:
     js: https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.umd.js
     css: https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.css
 
+article:
+  # 分类胶囊配色（首页/列表页文章卡片）——遵循排版规范律三调性谱：科技 cyan、生活/实践 green、沉思 purple；排除 blue
+  category_color:
+    '技术': '#1BCDFC'
+    '搞钱实践': '#3DC550'
+    '随笔': '#9c27b0'
+
 site_tree:
   home:
     leftbar: recent, qexo_talks
