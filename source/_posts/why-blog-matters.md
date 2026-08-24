@@ -6,7 +6,7 @@ tags:
   - 随笔
 categories:
   - 随笔
-description: 微信公众号的封闭与风控让创作者步履维艰。个人博客则是一片纯粹的数字自留地——排版自由、修改自由、内容沉淀为永久数字资产。虽然初期流量寥寥，但持续输出终将吸引同行者。
+description: 微信公众号的封闭与风控打击了创作者的积极性。个人博客则是一片纯粹的数字自留地--表达自由、内容可沉淀为自己的长期数字资产。虽然初期流量寥寥，但持续输出终将吸引同行者。
 slug: why-blog-matters
 banner: 'https://img.qinyuan.me/images/20260824154551748.jpg?imageMogr2/format/webp/quality/85'
 ---
