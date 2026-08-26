@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # —— 外观（占位路径，图片待后续放入 source/images/）——
 avatar: /images/avatar.jpg
-favicon: /images/favicon.ico?v=5
+favicon: /images/favicon.ico?v=6
 
 # —— 网址 ——
 # 部署到 Vercel 后绑定 qinyuan.me，这里填你的正式域名
