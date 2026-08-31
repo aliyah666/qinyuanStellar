@@ -1,6 +1,7 @@
 ---
 title: NotionNext + Vercel：0基础也能搭建个人博客
 date: 2026-07-11 00:00:00
+type: story
 tags: [工具, 建站]
 categories: [技术]
 description: 不想买服务器、不想折腾运维、只想安安静静写博客？用 Notion 写笔记的方式写文章，Vercel 免费托管，NotionNext 一键部署——这套方案里，域名是唯一需要花钱的地方。
