@@ -18,7 +18,7 @@ menubar:
 comments:
   service: twikoo
   twikoo:
-    js: https://registry.npmmirror.com/twikoo/1.7.15/files/dist/twikoo.all.min.js
+    js: https://registry.npmmirror.com/twikoo/1.7.19/files/dist/twikoo.all.min.js
     envId: https://comment.qinyuan.me
 
 # 引入霞鹜文楷 Screen Web（切片版，异步加载不阻塞渲染）
