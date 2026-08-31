@@ -1,377 +1,924 @@
 {
- "Bilibili": {
+ "可爱猫": {
   "type": "image",
   "container": [
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png\">",
+    "text": "cat-心",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatheart.png'>"
+   },
+   {
+    "text": "cat-心碎",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatheartbroken.png'>"
+   },
+   {
+    "text": "cat-心自豪",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatheartpride.png'>"
+   },
+   {
+    "text": "cat-爱",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatlove.png'>"
+   },
+   {
+    "text": "cat-亲吻心",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatkissheart.png'>"
+   },
+   {
+    "text": "cat-依偎",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatsnuggle.png'>"
+   },
+   {
+    "text": "cat-舒适",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatcomfy.png'>"
+   },
+   {
+    "text": "cat-舒适流泪",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatcomftears.png'>"
+   },
+   {
+    "text": "cat-捂脸",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatfacepalm.png'>"
+   },
+   {
+    "text": "cat-0_0",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcat0_0.png'>"
+   },
+   {
+    "text": "cat-生气",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatangry.png'>"
+   },
+   {
+    "text": "cat-脸红",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatblush.png'>"
+   },
+   {
+    "text": "cat-咖啡",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatcoffee.png'>"
+   },
+   {
+    "text": "cat-哭泣",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatcry.png'>"
+   },
+   {
+    "text": "cat-死了",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatdead.png'>"
+   },
+   {
+    "text": "cat-困扰",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatdisturbed.png'>"
+   },
+   {
+    "text": "cat-恐惧",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatfearful.png'>"
+   },
+   {
+    "text": "cat-手枪",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatfingerguns.png'>"
+   },
+   {
+    "text": "cat-翻",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatflip.png'>"
+   },
+   {
+    "text": "cat-花",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatflower.png'>"
+   },
+   {
+    "text": "cat-同性恋",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatgay.png'>"
+   },
+   {
+    "text": "cat-中性",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatneutral.png'>"
+   },
+   {
+    "text": "cat-张嘴",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatopenmouth.png'>"
+   },
+   {
+    "text": "cat-伸手",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatsadreach.png'>"
+   },
+   {
+    "text": "cat-害怕",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatscared.png'>"
+   },
+   {
+    "text": "cat-咬头",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatnomblobcat.png'>"
+   },
+   {
+    "text": "cat-红色礼物",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatpresentred.png'>"
+   },
+   {
+    "text": "cat-阅读",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatread.png'>"
+   },
+   {
+    "text": "cat-喝汗",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatsipsweat.png'>"
+   },
+   {
+    "text": "cat-发火",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatsnapped.png'>"
+   },
+   {
+    "text": "cat-思考",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatthink.png'>"
+   },
+   {
+    "text": "cat-胜利",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcattriumph.png'>"
+   },
+   {
+    "text": "cat-嗯",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatumm.png'>"
+   },
+   {
+    "text": "cat-验证",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatverified.png'>"
+   },
+   {
+    "text": "cat-盒子",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatbox.png'>"
+   },
+   {
+    "text": "cat-笼子",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatcaged.png'>"
+   },
+   {
+    "text": "cat-垃圾",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatgooglytrash.png'>"
+   },
+   {
+    "text": "cat-耳机",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatheadphones.png'>"
+   },
+   {
+    "text": "cat-击掌",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcathighfive.png'>"
+   },
+   {
+    "text": "cat-融化",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatmelt.png'>"
+   },
+   {
+    "text": "cat-融化拇指",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatmeltthumb.png'>"
+   },
+   {
+    "text": "cat-不像这样",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatnotlikethis.png'>"
+   },
+   {
+    "text": "cat-一拳超人",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatsaitama.png'>"
+   },
+   {
+    "text": "cat-病态",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatyandere.png'>"
+   },
+   {
+    "text": "cat-偷看2",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatpeek2.png'>"
+   },
+   {
+    "text": "cat-躲猫猫",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatpeekaboo.png'>"
+   },
+   {
+    "text": "cat-照片",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatphoto.png'>"
+   },
+   {
+    "text": "cat-注意反转",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatattentionreverse.png'>"
+   },
+   {
+    "text": "cat-反向伸手",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatreachrev.png'>"
+   },
+   {
+    "text": "cat-挥手",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatwave.png'>"
+   },
+   {
+    "text": "cat-备用",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatalt.png'>"
+   },
+   {
+    "text": "cat-警察",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatpolice.png'>"
+   },
+   {
+    "text": "cat-震惊",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatshocked.png'>"
+   },
+   {
+    "text": "cat-彩虹",
+    "icon": "<img src='https://fastly.jsdelivr.net/gh/willow-god/owo/blobcat/blobcatrainbow.png'>"
+   }
+  ]
+ },
+ "小电视": {
+  "type": "image",
+  "container": [
+   {
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png\">",
     "text": "tv_doge"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/a8111ad55953ef5e3be3327ef94eb4a39d535d06.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/a8111ad55953ef5e3be3327ef94eb4a39d535d06.png\">",
     "text": "tv_亲亲"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/bb690d4107620f1c15cff29509db529a73aee261.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/bb690d4107620f1c15cff29509db529a73aee261.png\">",
     "text": "tv_偷笑"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png\">",
     "text": "tv_再见"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png\">",
     "text": "tv_冷漠"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png\">",
     "text": "tv_发怒"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/34db290afd2963723c6eb3c4560667db7253a21a.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/34db290afd2963723c6eb3c4560667db7253a21a.png\">",
     "text": "tv_发财"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png\">",
     "text": "tv_可爱"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/09dd16a7aa59b77baa1155d47484409624470c77.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/09dd16a7aa59b77baa1155d47484409624470c77.png\">",
     "text": "tv_吐血"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png\">",
     "text": "tv_呆"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/9f996894a39e282ccf5e66856af49483f81870f3.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/9f996894a39e282ccf5e66856af49483f81870f3.png\">",
     "text": "tv_呕吐"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/241ee304e44c0af029adceb294399391e4737ef2.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/241ee304e44c0af029adceb294399391e4737ef2.png\">",
     "text": "tv_困"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/1f0b87f731a671079842116e0991c91c2c88645a.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/1f0b87f731a671079842116e0991c91c2c88645a.png\">",
     "text": "tv_坏笑"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/093c1e2c490161aca397afc45573c877cdead616.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/093c1e2c490161aca397afc45573c877cdead616.png\">",
     "text": "tv_大佬"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/23269aeb35f99daee28dda129676f6e9ea87934f.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/23269aeb35f99daee28dda129676f6e9ea87934f.png\">",
     "text": "tv_大哭"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png\">",
     "text": "tv_委屈"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png\">",
     "text": "tv_害羞"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png\">",
     "text": "tv_尴尬"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png\">",
     "text": "tv_微笑"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/90cf159733e558137ed20aa04d09964436f618a1.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/90cf159733e558137ed20aa04d09964436f618a1.png\">",
     "text": "tv_思考"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/bilibili/0d15c7e2ee58e935adc6a7193ee042388adc22af.png\">",
+    "icon": "<img src=\"https://owo.imaegoo.com/bilibili/0d15c7e2ee58e935adc6a7193ee042388adc22af.png\">",
     "text": "tv_惊吓"
    }
   ]
  },
- "颜文字": {
-  "type": "emoticon",
+ "小黄脸": {
+  "type": "emoji",
   "container": [
    {
-    "icon": "OωO",
-    "text": "Author: DIYgod"
+    "icon": "😄",
+    "text": "大笑"
    },
    {
-    "icon": "|´・ω・)ノ",
-    "text": "Hi"
+    "icon": "😁",
+    "text": "嘻嘻"
    },
    {
-    "icon": "ヾ(≧∇≦*)ゝ",
-    "text": "开心"
+    "icon": "😅",
+    "text": "苦笑"
    },
    {
-    "icon": "(☆ω☆)",
-    "text": "星星眼"
+    "icon": "🤣",
+    "text": "笑得满地打滚"
    },
    {
-    "icon": "（╯‵□′）╯︵┴─┴",
-    "text": "掀桌"
+    "icon": "😂",
+    "text": "笑哭了"
    },
    {
-    "icon": "￣﹃￣",
+    "icon": "🙂",
+    "text": "呵呵"
+   },
+   {
+    "icon": "🙃",
+    "text": "倒脸"
+   },
+   {
+    "icon": "😉",
+    "text": "眨眼"
+   },
+   {
+    "icon": "😊",
+    "text": "羞涩微笑"
+   },
+   {
+    "icon": "🥰",
+    "text": "喜笑颜开"
+   },
+   {
+    "icon": "😍",
+    "text": "花痴"
+   },
+   {
+    "icon": "🤩",
+    "text": "好崇拜哦"
+   },
+   {
+    "icon": "😘",
+    "text": "飞吻"
+   },
+   {
+    "icon": "😗",
+    "text": "亲亲"
+   },
+   {
+    "icon": "😚",
+    "text": "羞涩亲亲"
+   },
+   {
+    "icon": "😙",
+    "text": "微笑亲亲"
+   },
+   {
+    "icon": "😋",
+    "text": "好吃"
+   },
+   {
+    "icon": "😛",
+    "text": "吐舌"
+   },
+   {
+    "icon": "😜",
+    "text": "单眼吐舌"
+   },
+   {
+    "icon": "🤪",
+    "text": "滑稽"
+   },
+   {
+    "icon": "😝",
+    "text": "眯眼吐舌"
+   },
+   {
+    "icon": "🤗",
+    "text": "抱抱"
+   },
+   {
+    "icon": "🤭",
+    "text": "不说"
+   },
+   {
+    "icon": "🤫",
+    "text": "安静的脸"
+   },
+   {
+    "icon": "🤔",
+    "text": "想一想"
+   },
+   {
+    "icon": "🤐",
+    "text": "闭嘴"
+   },
+   {
+    "icon": "🤨",
+    "text": "挑眉"
+   },
+   {
+    "icon": "😐",
+    "text": "冷漠"
+   },
+   {
+    "icon": "😑",
+    "text": "无语"
+   },
+   {
+    "icon": "😶",
+    "text": "沉默"
+   },
+   {
+    "icon": "😏",
+    "text": "得意"
+   },
+   {
+    "icon": "😒",
+    "text": "不高兴"
+   },
+   {
+    "icon": "🙄",
+    "text": "翻白眼"
+   },
+   {
+    "icon": "😬",
+    "text": "龇牙咧嘴"
+   },
+   {
+    "icon": "🤥",
+    "text": "说谎"
+   },
+   {
+    "icon": "😶‍🌫️",
+    "text": "迷茫"
+   },
+   {
+    "icon": "😮‍💨",
+    "text": "呼气"
+   },
+   {
+    "icon": "😌",
+    "text": "松了口气"
+   },
+   {
+    "icon": "😔",
+    "text": "沉思"
+   },
+   {
+    "icon": "😪",
+    "text": "困"
+   },
+   {
+    "icon": "🤤",
     "text": "流口水"
    },
    {
-    "icon": "(/ω＼)",
-    "text": "捂脸"
+    "icon": "😴",
+    "text": "睡着了"
    },
    {
-    "icon": "∠( ᐛ 」∠)＿",
-    "text": "给跪"
+    "icon": "😷",
+    "text": "感冒"
    },
    {
-    "icon": "(๑•̀ㅁ•́ฅ)",
-    "text": "Hi"
+    "icon": "🤒",
+    "text": "发烧"
    },
    {
-    "icon": "→_→",
-    "text": "斜眼"
+    "icon": "🤕",
+    "text": "受伤"
    },
    {
-    "icon": "୧(๑•̀⌄•́๑)૭",
-    "text": "加油"
+    "icon": "🤢",
+    "text": "恶心"
    },
    {
-    "icon": "٩(ˊᗜˋ*)و",
-    "text": "有木有WiFi"
+    "icon": "🤮",
+    "text": "呕吐"
    },
    {
-    "icon": "(ノ°ο°)ノ",
-    "text": "前方高能预警"
+    "icon": "🤧",
+    "text": "打喷嚏"
    },
    {
-    "icon": "(´இ皿இ｀)",
-    "text": "我从未见过如此厚颜无耻之人"
+    "icon": "🥵",
+    "text": "脸发烧"
    },
    {
-    "icon": "⌇●﹏●⌇",
-    "text": "吓死宝宝惹"
+    "icon": "🥶",
+    "text": "冷脸"
    },
    {
-    "icon": "(ฅ´ω`ฅ)",
-    "text": "已阅留爪"
+    "icon": "🥴",
+    "text": "头昏眼花"
    },
    {
-    "icon": "(╯°A°)╯︵○○○",
-    "text": "去吧大师球"
+    "icon": "😵",
+    "text": "晕头转向"
    },
    {
-    "icon": "φ(￣∇￣o)",
-    "text": "太萌惹"
+    "icon": "🤯",
+    "text": "爆炸头"
    },
    {
-    "icon": "ヾ(´･ ･｀｡)ノ\"",
-    "text": "咦咦咦"
+    "icon": "😵‍💫",
+    "text": "晕"
    },
    {
-    "icon": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃",
-    "text": "气呼呼"
+    "icon": "🤠",
+    "text": "牛仔帽脸"
    },
    {
-    "icon": "(ó﹏ò｡)",
-    "text": "我受到了惊吓"
+    "icon": "🥳",
+    "text": "聚会笑脸"
    },
    {
-    "icon": "Σ(っ °Д °;)っ",
-    "text": "什么鬼"
+    "icon": "😎",
+    "text": "墨镜笑脸"
    },
    {
-    "icon": "( ,,´･ω･)ﾉ\"(´っω･｀｡)",
-    "text": "摸摸头"
+    "icon": "🤓",
+    "text": "书呆子脸"
    },
    {
-    "icon": "╮(╯▽╰)╭ ",
-    "text": "无奈"
+    "icon": "🧐",
+    "text": "带单片眼镜的脸"
    },
    {
-    "icon": "o(*////▽////*)q ",
+    "icon": "😕",
+    "text": "困扰"
+   },
+   {
+    "icon": "😟",
+    "text": "担心"
+   },
+   {
+    "icon": "🙁",
+    "text": "微微不满"
+   },
+   {
+    "icon": "☹️",
+    "text": "不满"
+   },
+   {
+    "icon": "😮",
+    "text": "吃惊"
+   },
+   {
+    "icon": "😯",
+    "text": "缄默"
+   },
+   {
+    "icon": "😲",
+    "text": "震惊"
+   },
+   {
+    "icon": "😳",
     "text": "脸红"
    },
    {
-    "icon": "＞﹏＜",
-    "text": ""
+    "icon": "🥺",
+    "text": "恳求的脸"
    },
    {
-    "icon": "( ๑´•ω•) \"(ㆆᴗㆆ)",
-    "text": ""
-   }
-  ]
- },
- "Dog": {
-  "type": "image",
-  "container": [
-   {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/狗头.png\">",
-    "text": "heo-狗头"
+    "icon": "😦",
+    "text": "啊"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/哈士奇.png\">",
-    "text": "heo-哈士奇"
+    "icon": "😧",
+    "text": "极度痛苦"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/狗头围脖.png\">",
-    "text": "heo-狗头围脖"
+    "icon": "😨",
+    "text": "害怕"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/狗头花.png\">",
-    "text": "heo-狗头花"
+    "icon": "😰",
+    "text": "冷汗"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/狗头草.png\">",
-    "text": "heo-狗头草"
+    "icon": "😥",
+    "text": "失望但如释重负"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/狗头胖次.png\">",
-    "text": "heo-狗头胖次"
+    "icon": "😢",
+    "text": "哭"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/熊猫.png\">",
-    "text": "heo-熊猫"
+    "icon": "😭",
+    "text": "放声大哭"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/熊猫唱歌.png\">",
-    "text": "heo-熊猫唱歌"
+    "icon": "😱",
+    "text": "吓死了"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/哈士奇失去意识.png\">",
-    "text": "heo-哈士奇失去意识"
+    "icon": "😖",
+    "text": "困惑"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/熊猫喜欢.png\">",
-    "text": "heo-熊猫喜欢"
+    "icon": "😣",
+    "text": "痛苦"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/菜狗.png\">",
-    "text": "heo-菜狗"
+    "icon": "😞",
+    "text": "失望"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/菜狗花.png\">",
-    "text": "heo-菜狗花"
+    "icon": "😓",
+    "text": "汗"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/狗头失望.png\">",
-    "text": "heo-狗头失望"
+    "icon": "😩",
+    "text": "累死了"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/哈士奇失望.png\">",
-    "text": "heo-哈士奇失望"
+    "icon": "😫",
+    "text": "累"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/熊猫失望.png\">",
-    "text": "heo-熊猫失望"
+    "icon": "🥱",
+    "text": "打呵欠"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/熊猫意外.png\">",
-    "text": "heo-熊猫意外"
+    "icon": "😤",
+    "text": "傲慢"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/Dog/狗头意外.png\">",
-    "text": "heo-狗头意外"
-   }
-  ]
- },
- "Heo精选": {
-  "type": "image",
-  "container": [
-   {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/波吉.png\">",
-    "text": "heo-波吉"
+    "icon": "😡",
+    "text": "怒火中烧"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/惬意.png\">",
-    "text": "heo-惬意"
+    "icon": "😠",
+    "text": "生气"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/没招.png\">",
-    "text": "heo-没招"
+    "icon": "🤬",
+    "text": "嘴上有符号的脸"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/害羞.png\">",
-    "text": "heo-害羞"
+    "icon": "💩",
+    "text": "大便"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/呲牙笑.png\">",
-    "text": "heo-呲牙笑"
+    "icon": "🤡",
+    "text": "小丑脸"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/喜欢.png\">",
-    "text": "heo-喜欢"
+    "icon": "👻",
+    "text": "鬼"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/奋斗.png\">",
-    "text": "heo-奋斗"
+    "icon": "👽",
+    "text": "外星人"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/耍酷.png\">",
-    "text": "heo-耍酷"
+    "icon": "🤖",
+    "text": "机器人"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/烦恼.png\">",
-    "text": "heo-烦恼"
+    "icon": "😺",
+    "text": "大笑的猫"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/爆炸.png\">",
-    "text": "heo-爆炸"
+    "icon": "😸",
+    "text": "微笑的猫"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/熬夜.png\">",
-    "text": "heo-熬夜"
+    "icon": "😹",
+    "text": "笑出眼泪的猫"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/吃瓜.png\">",
-    "text": "heo-吃瓜"
+    "icon": "😻",
+    "text": "花痴的猫"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/阴险.png\">",
-    "text": "heo-阴险"
+    "icon": "😼",
+    "text": "奸笑的猫"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/滑稽.png\">",
-    "text": "heo-滑稽"
+    "icon": "😽",
+    "text": "亲亲猫"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/被打.png\">",
-    "text": "heo-被打"
+    "icon": "🙀",
+    "text": "疲倦的猫"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/大笑.png\">",
-    "text": "heo-大笑"
+    "icon": "😿",
+    "text": "哭泣的猫"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/亲亲.png\">",
-    "text": "heo-亲亲"
+    "icon": "😾",
+    "text": "生气的猫"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/愤怒.png\">",
-    "text": "heo-愤怒"
+    "icon": "🙈",
+    "text": "非礼勿视"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/惊吓.png\">",
-    "text": "heo-惊吓"
+    "icon": "🙉",
+    "text": "非礼勿听"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/尴尬.png\">",
-    "text": "heo-尴尬"
+    "icon": "🙊",
+    "text": "非礼勿言"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/捂嘴笑.png\">",
-    "text": "heo-捂嘴笑"
+    "icon": "💋",
+    "text": "唇印"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/捂脸.png\">",
-    "text": "heo-捂脸"
+    "icon": "💖",
+    "text": "闪亮的心"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/生病.png\">",
-    "text": "heo-生病"
+    "icon": "💔",
+    "text": "心碎"
    },
    {
-    "icon": "<img src=\"https://npm.elemecdn.com/twikoo-emoji@1.0.0/heo/绿帽.png\">",
-    "text": "heo-绿帽"
+    "icon": "❤️",
+    "text": "红心"
+   },
+   {
+    "icon": "💯",
+    "text": "一百分"
+   },
+   {
+    "icon": "💢",
+    "text": "怒"
+   },
+   {
+    "icon": "💥",
+    "text": "爆炸"
+   },
+   {
+    "icon": "💫",
+    "text": "头晕"
+   },
+   {
+    "icon": "💦",
+    "text": "汗滴"
+   },
+   {
+    "icon": "💤",
+    "text": "睡着"
+   },
+   {
+    "icon": "👋",
+    "text": "挥手"
+   },
+   {
+    "icon": "🖐️",
+    "text": "手掌"
+   },
+   {
+    "icon": "👌",
+    "text": "OK"
+   },
+   {
+    "icon": "🤏",
+    "text": "捏合的手势"
+   },
+   {
+    "icon": "✌️",
+    "text": "胜利手势"
+   },
+   {
+    "icon": "🤘",
+    "text": "摇滚"
+   },
+   {
+    "icon": "🖕",
+    "text": "竖中指"
+   },
+   {
+    "icon": "👍",
+    "text": "拇指向上"
+   },
+   {
+    "icon": "👊",
+    "text": "出拳"
+   },
+   {
+    "icon": "👏",
+    "text": "鼓掌"
+   },
+   {
+    "icon": "🤝",
+    "text": "握手"
+   },
+   {
+    "icon": "💪",
+    "text": "肌肉"
+   },
+   {
+    "icon": "👀",
+    "text": "双眼"
+   },
+   {
+    "icon": "🦋",
+    "text": "蝴蝶"
+   },
+   {
+    "icon": "💐",
+    "text": "花束"
+   },
+   {
+    "icon": "🌸",
+    "text": "樱花"
+   },
+   {
+    "icon": "🌹",
+    "text": "玫瑰"
+   },
+   {
+    "icon": "🍉",
+    "text": "西瓜"
+   },
+   {
+    "icon": "🥭",
+    "text": "芒果"
+   },
+   {
+    "icon": "🍗",
+    "text": "家禽的腿"
+   },
+   {
+    "icon": "🥩",
+    "text": "肉块"
+   },
+   {
+    "icon": "🍔",
+    "text": "汉堡"
+   },
+   {
+    "icon": "🍟",
+    "text": "薯条"
+   },
+   {
+    "icon": "🍕",
+    "text": "披萨"
+   },
+   {
+    "icon": "🌭",
+    "text": "热狗"
+   },
+   {
+    "icon": "🥚",
+    "text": "蛋"
+   },
+   {
+    "icon": "🍲",
+    "text": "一锅食物"
+   },
+   {
+    "icon": "🍡",
+    "text": "团子"
+   },
+   {
+    "icon": "🥟",
+    "text": "饺子"
+   },
+   {
+    "icon": "🍦",
+    "text": "圆筒冰激凌"
+   },
+   {
+    "icon": "🍧",
+    "text": "刨冰"
+   },
+   {
+    "icon": "🍨",
+    "text": "冰淇淋"
+   },
+   {
+    "icon": "🎂",
+    "text": "生日蛋糕"
+   },
+   {
+    "icon": "🧁",
+    "text": "纸杯蛋糕"
+   },
+   {
+    "icon": "🍭",
+    "text": "棒棒糖"
+   },
+   {
+    "icon": "☕",
+    "text": "热饮"
+   },
+   {
+    "icon": "🍺",
+    "text": "啤酒"
+   },
+   {
+    "icon": "🍻",
+    "text": "干杯"
    }
   ]
  }
