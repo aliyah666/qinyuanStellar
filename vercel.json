@@ -1,4 +1,5 @@
 {
+  "buildCommand": "TZ=Asia/Shanghai npx hexo generate",
   "headers": [
     {
       "source": "/css/(.*)",
