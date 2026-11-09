@@ -29,6 +29,8 @@ theme: stellar
 # json/ 是静态资源（owo 表情包），不参与页面渲染，也不该进 sitemap
 skip_render:
   - 'json/**'
+  # Google Search Console 站点验证文件，需原样输出到根目录
+  - 'googleea695eefe828ff37.html'
 
 # —— 部署（可选，若以后想用 hexo deploy 而非 Vercel Git 集成）——
 # deploy:
