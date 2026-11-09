@@ -1,6 +1,7 @@
 ---
 title: 我把博客从 NotionNext 转移到了 Stellar
 date: 2026-08-07 08:00:00
+updated: 2026-08-07
 categories: [技术]
 tags: [建站, 工具]
 description: 博客突然 403 打不开，折腾两小时没修好。于是我把博客从 NotionNext 迁移到 Hexo + Stellar 主题，全程靠 AI 助手搞定部署。

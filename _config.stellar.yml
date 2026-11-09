@@ -1,6 +1,10 @@
 # Stellar 主题级配置（最小可用）
 # 官方文档：https://xaoxuu.com/wiki/stellar/
-# 说明：第一轮仅配置最小导航 + 关闭评论；个性化（评论 Twikoo、字体等）放第二轮。
+# 说明：评论已接入 Twikoo（Vercel 部署，envId: comment.qinyuan.me，见下方 comments 块）；字体等个性化见 inject / style。
+
+# —— 规范链接（主题原生支持，读 theme.canonical.originalHost）——
+canonical:
+  originalHost: qinyuan.me
 
 menubar:
   columns: 3

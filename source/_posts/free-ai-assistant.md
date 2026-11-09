@@ -1,6 +1,7 @@
 ---
 title: AI时代，每个人都应该配一个免费的 AI 助手
 date: 2026-07-10 00:00:00
+updated: 2026-07-10
 type: story
 tags: [工具]
 categories: [随笔]

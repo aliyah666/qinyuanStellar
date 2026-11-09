@@ -1,6 +1,7 @@
 ---
 title: 博客的意义是什么？
 date: 2026-08-06 12:00:00
+updated: 2026-08-06
 type: story
 tags:
   - 博客

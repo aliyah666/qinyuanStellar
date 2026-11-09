@@ -1,6 +1,7 @@
 ---
 title: NotionNext + Vercel：0基础也能搭建个人博客
 date: 2026-07-11 00:00:00
+updated: 2026-07-11
 type: story
 tags: [工具, 建站]
 categories: [技术]

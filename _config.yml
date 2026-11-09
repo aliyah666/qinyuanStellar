@@ -4,9 +4,9 @@
 # ===========================================================
 
 # —— 站点基本信息 ——
-title: 覃远的妄语
+title: 覃远说
 subtitle: '做最擅长的事，以此来联结他人 | 这里填满我的想法，和我在意的事'
-description: 'Hardy 的个人博客，写真实经历与搞钱项目实践。'
+description: '覃远说｜记录 AI 与搞钱实践，以及工作生活的所思所想'
 author: Hardy
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -24,6 +24,11 @@ permalink_defaults:
 
 # —— 主题 ——
 theme: stellar
+
+# —— 构建 ——
+# json/ 是静态资源（owo 表情包），不参与页面渲染，也不该进 sitemap
+skip_render:
+  - 'json/**'
 
 # —— 部署（可选，若以后想用 hexo deploy 而非 Vercel Git 集成）——
 # deploy:
