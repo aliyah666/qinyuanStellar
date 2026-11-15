@@ -7,6 +7,7 @@ tags:
 categories:
   - 搞钱实践
 type: story
+cover: 'https://img.qinyuan.me/images/20261115135001451.png?imageMogr2/format/webp/quality/85'
 description: '花30元获得了一本电子书资源，发现找书难是真实需求，挂闲鱼验证——3个月成交14单、赚回 168元。后续卖课和订阅服务却 0成交，用户只愿单本付费，即买即走。核心启发：痛点即商机、低成本验证、放大触达、私域转化，小众赛道因稀缺性享有更大定价权。'
 ---
 
