@@ -56,6 +56,9 @@ inject:
       .polaroid-card--wide .polaroid-frame {
         aspect-ratio: 21 / 9;
       }
+      .polaroid-card--portrait .polaroid-frame {
+        aspect-ratio: 707 / 1000;
+      }
       .polaroid-caption {
         flex: 1;
         display: flex;
@@ -94,6 +97,26 @@ inject:
 
 <div class="polaroid-wall">
 
+  <div class="polaroid-card polaroid-card--portrait">
+    <div class="polaroid-frame">
+      <img src="/images/praise/jinjiang-2023-12.jpg" alt="锦江酒店全品牌副总认证证书" data-fancybox="praise" loading="lazy">
+    </div>
+    <div class="polaroid-caption">
+      通过锦江酒店全品牌副总认证。
+      <span class="polaroid-date">2023.12</span>
+    </div>
+  </div>
+
+  <div class="polaroid-card polaroid-card--portrait">
+    <div class="polaroid-frame">
+      <img src="/images/praise/jinjiang-2022-09.jpg" alt="锦江酒店简约品牌直营店总证书" data-fancybox="praise" loading="lazy">
+    </div>
+    <div class="polaroid-caption">
+      拿下了锦江酒店简约品牌直营店总证。
+      <span class="polaroid-date">2022.09</span>
+    </div>
+  </div>
+
 </div>
 
 <!--
@@ -107,6 +130,18 @@ inject:
   </div>
   <div class="polaroid-caption">
     这里只能写纯文本，需要强调请用 <strong>HTML 标签</strong>，不会解析 Markdown 语法。
+    <span class="polaroid-date">2026.11</span>
+  </div>
+</div>
+
+竖版卡片——证书、证书类竖图、手机截图用，加 polaroid-card--portrait，按 707:1000（约 A4）裁切，两张同行也能对齐：
+
+<div class="polaroid-card polaroid-card--portrait">
+  <div class="polaroid-frame">
+    <img src="/images/praise/example.jpg" alt="图片说明" data-fancybox="praise" loading="lazy">
+  </div>
+  <div class="polaroid-caption">
+    竖版图说明。
     <span class="polaroid-date">2026.11</span>
   </div>
 </div>
