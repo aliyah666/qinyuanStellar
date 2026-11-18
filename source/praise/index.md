@@ -1,0 +1,128 @@
+---
+title: 表扬档案
+subtitle: 留着它，只在需要提振士气的时候拿出来看；看两眼，然后回去干活。
+layout: page
+menu_id: praise
+comments: false
+description: 收集他人对自己的真诚肯定与高光时刻，作为客观证据，在自我怀疑与低谷期快速提振士气。
+inject:
+  head:
+    # 仅本页生效：拍立得相框 + 两列整齐网格（统一 16:9 裁切，长图可整行横跨），跟随主题深浅色自适应
+    - |
+      <style>
+      .polaroid-wall {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+        margin-top: 1.5rem;
+      }
+      .polaroid-card {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        padding: 10px 10px 14px 10px;
+        background: var(--card, #ffffff);
+        border: 1px solid var(--block-border, rgba(0, 0, 0, 0.08));
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        box-sizing: border-box;
+      }
+      .polaroid-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.09);
+      }
+      .polaroid-frame {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        border-radius: 8px;
+        background: rgba(125, 125, 125, 0.05);
+      }
+      .polaroid-frame img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: top center;
+        transition: transform 0.3s ease;
+      }
+      .polaroid-card:hover .polaroid-frame img {
+        transform: scale(1.02);
+      }
+      .polaroid-card--wide {
+        grid-column: span 2;
+      }
+      .polaroid-card--wide .polaroid-frame {
+        aspect-ratio: 21 / 9;
+      }
+      .polaroid-caption {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding: 0 4px;
+        font-size: 0.88rem;
+        line-height: 1.5;
+        color: var(--text-p1, #333333);
+        text-align: left;
+      }
+      .polaroid-date {
+        margin-top: 6px;
+        font-size: 0.75rem;
+        color: var(--text-p3, #888888);
+        align-self: flex-end;
+      }
+      /* 移动端覆盖必须放在最后：同优先级下靠后生效 */
+      @media (max-width: 520px) {
+        .polaroid-wall {
+          grid-template-columns: minmax(0, 1fr);
+          gap: 14px;
+        }
+        .polaroid-card--wide {
+          grid-column: span 1;
+        }
+        .polaroid-card--wide .polaroid-frame {
+          aspect-ratio: 16 / 9;
+        }
+      }
+      </style>
+---
+
+> “搞创作和生活都是孤独的，难免会遇到自我怀疑的灰暗日子。把真诚的肯定与赞誉收集起来，它们是证明你也是‘OK’的客观证据。” —— Austin Kleon
+
+<div class="polaroid-wall">
+
+</div>
+
+<!--
+卡片模板（新增时复制下面整段，替换图片地址、说明文字与日期）：
+
+普通卡片——图片按 16:9 裁切（顶部对齐），一行两张、行行等高：
+
+<div class="polaroid-card">
+  <div class="polaroid-frame">
+    <img src="https://img.qinyuan.me/images/example.jpg?imageMogr2/format/webp/quality/85" alt="图片说明" data-fancybox="praise" loading="lazy">
+  </div>
+  <div class="polaroid-caption">
+    这里只能写纯文本，需要强调请用 <strong>HTML 标签</strong>，不会解析 Markdown 语法。
+    <span class="polaroid-date">2026.11</span>
+  </div>
+</div>
+
+整行卡片——长截图或重点内容用，加一个 polaroid-card--wide 类名，按 21:9 裁切、横跨一整行：
+
+<div class="polaroid-card polaroid-card--wide">
+  <div class="polaroid-frame">
+    <img src="https://img.qinyuan.me/images/example-wide.jpg?imageMogr2/format/webp/quality/85" alt="长截图说明" data-fancybox="praise" loading="lazy">
+  </div>
+  <div class="polaroid-caption">
+    竖版长截图放这里，点开可看完整内容。
+    <span class="polaroid-date">2026.11</span>
+  </div>
+</div>
+
+注意 1：卡片内部不要留空行，且每行缩进不得超过 3 个空格，否则会被渲染成代码块。
+注意 2：整行卡片（polaroid-card--wide）前面必须已经有偶数张普通卡片，否则它前面会空出一个格子。想插在奇数位置时，把上一张也改成整行卡片即可。
+-->
