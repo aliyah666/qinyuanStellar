@@ -35,6 +35,8 @@ inject:
     - "<link rel=\"stylesheet\" href=\"https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css\" media=\"print\" onload=\"this.media='all'\">"
     # 覆盖主题 scrollreveal 的 visibility:hidden（会阻断 vanilla-lazyload 视口检测导致图片空白）；隐藏交给 ScrollReveal 内联 opacity 负责，样式表不得设 opacity:0（否则 SR4 不生成动画终点）
     - "<style>.slide-up{visibility:visible;}</style>"
+    # /css/main.css?v=1.33.1 被 Vercel 标记 immutable（缓存一年），新增第四项导航后老访客会命中旧的三列样式而换行；这里内联兑底，需与 menubar.columns 保持同步
+    - "<style>.nav-area .menu{grid-template-columns:repeat(4,1fr);}</style>"
     - '<link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/MSCMDD/Qexo-Talks@main/Stellar/qexo_talk.css">'
     - |
       <style>

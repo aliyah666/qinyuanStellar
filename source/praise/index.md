@@ -59,6 +59,10 @@ inject:
       .polaroid-card--portrait .polaroid-frame {
         aspect-ratio: 707 / 1000;
       }
+      /* 与 --wide 叠加时生效，必须写在 --wide 之后 */
+      .polaroid-card--landscape .polaroid-frame {
+        aspect-ratio: 4 / 3;
+      }
       .polaroid-caption {
         flex: 1;
         display: flex;
@@ -86,7 +90,7 @@ inject:
         .polaroid-card--wide {
           grid-column: span 1;
         }
-        .polaroid-card--wide .polaroid-frame {
+        .polaroid-card--wide:not(.polaroid-card--landscape) .polaroid-frame {
           aspect-ratio: 16 / 9;
         }
       }
@@ -99,7 +103,7 @@ inject:
 
   <div class="polaroid-card polaroid-card--portrait">
     <div class="polaroid-frame">
-      <img src="/images/praise/jinjiang-2023-12.jpg" alt="锦江酒店全品牌副总认证证书" data-fancybox="praise" loading="lazy">
+      <img src="https://img.qinyuan.me/images/20261119001708294.jpg?imageMogr2/format/webp/quality/85" alt="锦江酒店全品牌副总认证证书" data-fancybox="praise" loading="lazy">
     </div>
     <div class="polaroid-caption">
       通过锦江酒店全品牌副总认证。
@@ -109,11 +113,21 @@ inject:
 
   <div class="polaroid-card polaroid-card--portrait">
     <div class="polaroid-frame">
-      <img src="/images/praise/jinjiang-2022-09.jpg" alt="锦江酒店简约品牌直营店总证书" data-fancybox="praise" loading="lazy">
+      <img src="https://img.qinyuan.me/images/20261119001644860.jpg?imageMogr2/format/webp/quality/85" alt="锦江酒店简约品牌直营店总证书" data-fancybox="praise" loading="lazy">
     </div>
     <div class="polaroid-caption">
       拿下了锦江酒店简约品牌直营店总证。
       <span class="polaroid-date">2022.09</span>
+    </div>
+  </div>
+
+  <div class="polaroid-card polaroid-card--wide polaroid-card--landscape">
+    <div class="polaroid-frame">
+      <img src="https://img.qinyuan.me/images/20261119001721528.jpg?imageMogr2/format/webp/quality/85" alt="二〇二〇年度先进工作者荣誉证书" data-fancybox="praise" loading="lazy">
+    </div>
+    <div class="polaroid-caption">
+      初入酒店业的第二年，获评年度优秀员工。也是毕业工作以来第一次正儿八经的获奖。
+      <span class="polaroid-date">2021.02</span>
     </div>
   </div>
 
